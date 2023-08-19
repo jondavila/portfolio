@@ -283,6 +283,13 @@ html {
 
 /* Section */
 
+#profile-pic{
+    object-fit: cover;
+    object-position: 80% 10%;
+    height: 210px;
+    width: 210px;
+}
+
 #about-me {
     min-height: 0;
     padding-bottom: 0;
@@ -407,6 +414,7 @@ button:hover {
     padding: 50px;
     background-color: rgba(250, 250, 250, 0.1);
     transition: all 0.5s;
+    min-height: 492px;
 }
 
 .service-item h4 {
