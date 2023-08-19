@@ -283,6 +283,11 @@ html {
 
 /* Section */
 
+#about-me {
+    min-height: 0;
+    padding-bottom: 0;
+}
+
 .section {
     color: #fff;
     width: 55%;
